@@ -1,0 +1,16 @@
+{
+  "nakuru": [
+    {
+      "name": "Nakuru Vet",
+      "animal": "cattle",
+      "emergency": true
+    }
+  ],
+  "kiambu": [
+    {
+      "name": "Kiambu Poultry Vet",
+      "animal": "poultry",
+      "emergency": false
+    }
+  ]
+}

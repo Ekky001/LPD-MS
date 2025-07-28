@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>LPD System</title></head>
+<body>
+  <h2>Disease Alerts</h2>
+  <div id="disease-alerts-container"></div>
+  <script>
+    fetch('/api/diseases').then(res => res.json()).then(data => {
+      const container = document.getElementById('disease-alerts-container');
+      data.forEach(d => {
+        container.innerHTML += `<div><h4>${d.name}</h4><p>${d.region}</p></div>`;
+      });
+    });
+  </script>
+</body>
+</html>

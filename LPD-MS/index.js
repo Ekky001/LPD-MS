@@ -18,7 +18,7 @@ app.use('/api/vets', vetsRoutes);
 app.use('/api/auth', authRoutes);
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public/index.html');
+  res.sendFile(__dirname + '/public/lpd 2.html');
 });
 
 app.listen(PORT, () => {

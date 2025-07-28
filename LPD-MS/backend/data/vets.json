@@ -1,0 +1,20 @@
+{
+  "nakuru": [
+    {
+      "name": "Nakuru Vet Services",
+      "animal": "cattle",
+      "phone": "0723000001",
+      "address": "Kenyatta Avenue",
+      "emergency": true
+    }
+  ],
+  "kiambu": [
+    {
+      "name": "Poultry Care Kiambu",
+      "animal": "poultry",
+      "phone": "0722000002",
+      "address": "Kiambu Market",
+      "emergency": false
+    }
+  ]
+}
